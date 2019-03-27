@@ -1,0 +1,57 @@
+﻿<Page x:Class="WpfApp1.Details"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="369" d:DesignWidth="792"
+      Title="Details">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="PLEASE FILL IN THE REST!!!" FontWeight="Bold" />
+            <TextBlock Text="Credits for Icons" FontWeight="Bold" />
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/001-upload.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Height="24" Width="24" Source="/WpfApp1;component/Images/Icons/24/002-development.png"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/003-blueprint.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/004-interview.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/005-resume.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/006-record.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/007-stop-button.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/008-pause.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/009-play-button.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/WpfApp1;component/Images/Icons/24/010-disquette.png" Height="24" Width="24"/>
+                <TextBlock Margin="10 0 0 0" Text="Icon made by Freepik from www.flaticon.com Freepik" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

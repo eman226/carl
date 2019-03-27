@@ -1,0 +1,46 @@
+﻿<Page x:Class="WpfApp1.NLPPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="369" d:DesignWidth="792"
+      Title="NLPPage">
+
+    <Grid>
+        <Rectangle VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Fill="WhiteSmoke" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*" MinHeight="60"/>
+                <RowDefinition Height="5*" MinHeight="60"/>
+                <RowDefinition Height="3*" MinHeight="30"/>
+                <RowDefinition Height="3*" MinHeight="30"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center">
+                <Button x:Name="SpellCorrect" Width="70" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,28,20,27" BorderBrush="{x:Null}" Background="{x:Null}" Click="SpellCorrect_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/WpfApp1;component/Images/Icons/24/003-blueprint.png" Height="32" Width="32"/>
+                        <TextBlock Text="Spell Correct" TextAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,28,20,27.2" BorderBrush="{x:Null}" Background="{x:Null}" Click="Summarize_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/WpfApp1;component/Images/Icons/32/004-interview.png" Height="32" Width="32"/>
+                        <TextBlock Text="Summarize" TextAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,28,20,27.2" Background="{x:Null}" BorderBrush="Beige" Click="Refine_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/WpfApp1;component/Images/Icons/32/005-resume.png" Height="32" Width="32"/>
+                        <TextBlock Text="Refine" TextAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2"/>
+        </Grid>
+
+    </Grid>
+</Page>

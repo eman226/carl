@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WpfApp1" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="waveIn" Type="NAudio.Wave.WaveIn" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="waveOut" Type="NAudio.Wave.WaveOut" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="outputFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="outputFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">outputFilePath = Path.Combine(outputFolder,"recorded.wav");</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,2 +1,2 @@
-# carl
-speech_text
+# Project-CARL
+Record lectures and upload transcriptions to Google Drive.
